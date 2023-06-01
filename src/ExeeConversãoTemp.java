@@ -12,6 +12,8 @@ public class ExeeConversãoTemp {
         System.out.println(conversao);
         int conversao2=   (int) (celsius * 1.8 ) +32;
         System.out.println(conversao2);
+        boolean incluidoNoPlano= true;
+        double notaDoFilme = 8.1;
 
     }
 }
