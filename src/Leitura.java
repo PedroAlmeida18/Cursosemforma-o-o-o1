@@ -14,8 +14,6 @@ public class Leitura {
         System.out.println(anodeLançamento);
         System.out.println(va);
         leitura.close();
-
-
         }
 
     }
