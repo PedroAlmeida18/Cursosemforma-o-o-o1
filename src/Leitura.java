@@ -1,4 +1,5 @@
 import java.util.Scanner;
+
 public class Leitura {
     public static void main(String[] args) {
         Scanner leitura = new Scanner (System.in);
@@ -13,6 +14,10 @@ public class Leitura {
         System.out.println(anodeLançamento);
         System.out.println(va);
         leitura.close();
+
+
+        }
+
     }
-}
+
 
