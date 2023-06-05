@@ -5,6 +5,7 @@ public class Loop {
         Scanner leitura = new Scanner (System.in);
         double Mediavaliaçao =0;
         double nota=0 ;
+        // Laço de repetição em for
         for (int i = 0; i < 3; i++) {
             System.out.println("Qual a sua avaliação sobre o filme ?");
             nota = leitura.nextDouble();
