@@ -9,7 +9,7 @@ public class Loop {
             System.out.println("Qual a sua avaliação sobre o filme ?");
             nota = leitura.nextDouble();
             Mediavaliaçao += nota;
-            System.out.println(Mediavaliaçao);
+            System.out.println( "O somário das notas atuais é:"+ Mediavaliaçao);
 
         }System.out.println("Média das notas:"+ Mediavaliaçao/3.0);
     }
