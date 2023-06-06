@@ -14,7 +14,7 @@ public class DesafioFinal {
         System.out.println("\n_____________________________________________");
         System.out.println("Bem vindo ao menu ");
         String menu  = """ 
-        *** Bem vindo ao banco 2WP ***
+        *** Bem vindo ao banco 2WP  - CRIADO POR PEDRO HENRIQUE DE ALMEIDA SANTOS   ***
         1 - Consultar Saldo 
         2 - Transferência 
         3 - Deposito 
@@ -22,7 +22,7 @@ public class DesafioFinal {
         Resposta abaixo :
         _________________________________
         """;
-        while (opção != 4){
+        while (opção != 4 ){
             System.out.println(menu);
             opção = Leitor.nextInt();
             if ( opção == 1){
