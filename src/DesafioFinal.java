@@ -26,7 +26,7 @@ public class DesafioFinal {
             System.out.println(menu);
             opção = Leitor.nextInt();
             if ( opção == 1){
-                System.out.println(" O SALDO DA CONTA É :"+ saldo);
+                System.out.println(" O SALDO DA CONTA  É :"+ saldo);
             }
             if ( opção == 2 ){
                 System.out.println("Digite o valor da transfêrencia ");
